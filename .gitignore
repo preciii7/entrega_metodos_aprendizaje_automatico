@@ -1,7 +1,28 @@
-.venv
-__pycache__
-.venv
-__pycache__
+# Entornos virtuales (MUY IMPORTANTE)
 .venv/
+venv/
+ENV/
+lib/
+bin/
+include/
+scripts/
+pyvenv.cfg
+
+# Python (Archivos temporales)
 __pycache__/
-.ipynb_checkpoints/
+*.py[cod]
+*.class
+*.so
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# VS Code y Editores
+.vscode/
+.idea/
+*.swp
+
+# Archivos de sistema y logs
+.DS_Store
+*.log
