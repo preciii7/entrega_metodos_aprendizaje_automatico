@@ -26,3 +26,4 @@ __pycache__/
 # Archivos de sistema y logs
 .DS_Store
 *.log
+*.egg-info/
